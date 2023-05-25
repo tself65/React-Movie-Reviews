@@ -10,6 +10,11 @@
   color: white;
 }
 
+input[type="radio"] {
+  display: none; 
+}
+
+
 
 
 

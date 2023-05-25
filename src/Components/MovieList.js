@@ -18,33 +18,34 @@ function MovieList() {
             name= {'The Lord of the Rings: The Two Towers'}
             img= {'Lotr.jpg'}
             synopsis={"They're taking the hobbits to Isengard"}
-            rating= {"PG-13"}
+            rated= {"PG-13"}
             runTime= {100}
+            
             />
             <Movie 
             name= {'The Dark Knight'}
             img= {'DarkKnight.jpg'}
             synopsis={'Crazy clown fights emo man'}
-            rating= {"PG-13"}
+            rated= {"PG-13"}
             runTime= {100}
             />
             <Movie name= {'The Hunger Games'}
             img= {'HungerGames.jpg'}
             synopsis={'Angsty teens fight to the death'}
-            rating= {"PG-13"}
+            rated= {"PG-13"}
             runTime= {100}
             />
             <Movie 
             name= {'Avengers Infinity War'}
             img= {'Avengers.jpg'}
             synopsis={'Mad Titan wants to destroy half of all life'}
-            rating= {"PG-13"}
+            rated= {"PG-13"}
             runTime= {100}
             />
             <Movie name= {'It Chapter One'}
             img= {'It.jpg'}
             synopsis={"Alien Clown feeds off of children's fear"}
-            rating= {"R"}
+            rated= {"R"}
             runTime= {100}
             />
             </div>

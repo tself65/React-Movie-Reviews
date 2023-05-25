@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import ReviewForm from './ReviewForm';
+import Movie from './Movie'; 
 
 //A text review a user can leave on a movie.
 
@@ -10,6 +11,7 @@ import ReviewForm from './ReviewForm';
 function Review() {
 
   const [showForm, setShowForm] = useState(false);
+
 
   const handleClick = () => {
    setShowForm(!showForm); 
