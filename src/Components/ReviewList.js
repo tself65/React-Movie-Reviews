@@ -1,10 +1,11 @@
 import React, { useState } from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faStar }  from '@fortawesome/free-solid-svg-icons';
 
 
 //a container inside of a Movie that houses Review components.
 
 //create an array that houses all the movie reviews of any given movie. 
-
 
 
 function ReviewList({reviewList}) {
@@ -16,11 +17,18 @@ function ReviewList({reviewList}) {
      setShowReviews(!showReviews); 
     } 
 
+    const star = <FontAwesomeIcon icon={faStar} color = {"#FFBA5A"}/>; 
+    
+
     let movieReviews = reviewList.map((review,i) => {
         return (
-            <div key={i}>"{review.review}" - {review.name}<br/> {review.rating} Stars</div> 
-        )
-    })
+            <div key={i}>"{review.review}" - {review.name}<br/> 
+           {review.rating} {star}'s
+           </div> 
+        ) 
+    }) 
+    
+  
 
 
     return (

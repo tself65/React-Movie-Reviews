@@ -19,7 +19,7 @@ function MovieList() {
             img= {'Lotr.jpg'}
             synopsis={"They're taking the hobbits to Isengard"}
             rated= {"PG-13"}
-            runTime= {100}
+            runTime= {179}
             
             />
             <Movie 
@@ -27,26 +27,26 @@ function MovieList() {
             img= {'DarkKnight.jpg'}
             synopsis={'Crazy clown fights emo man'}
             rated= {"PG-13"}
-            runTime= {100}
+            runTime= {152}
             />
             <Movie name= {'The Hunger Games'}
             img= {'HungerGames.jpg'}
             synopsis={'Angsty teens fight to the death'}
             rated= {"PG-13"}
-            runTime= {100}
+            runTime= {142}
             />
             <Movie 
             name= {'Avengers Infinity War'}
             img= {'Avengers.jpg'}
             synopsis={'Mad Titan wants to destroy half of all life'}
             rated= {"PG-13"}
-            runTime= {100}
+            runTime= {149}
             />
             <Movie name= {'It Chapter One'}
             img= {'It.jpg'}
             synopsis={"Alien Clown feeds off of children's fear"}
             rated= {"R"}
-            runTime= {100}
+            runTime= {135}
             />
             </div>
 
